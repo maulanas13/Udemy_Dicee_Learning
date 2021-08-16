@@ -1,3 +1,8 @@
+/* GENERAL TAG (A~Z FIRST) */
+body {
+  background-color: #393E46;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -10,8 +15,12 @@
 
 }
 
-body {
-  background-color: #393E46;
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
 }
 
 h1 {
@@ -22,20 +31,14 @@ h1 {
   color: #4ECCA3;
 }
 
+img {
+  width: 80%;
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
-img {
-  width: 80%;
-}
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
-}
