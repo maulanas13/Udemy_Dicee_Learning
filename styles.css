@@ -41,4 +41,26 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-
+/* BUTTON */
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #3dc21b;
+	background-color: #4ECCA3;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 25px;
+	text-decoration: none;
+  margin-top: 80px;
+}
+.myButton:hover {
+	background-color:white;
+  color: #4ECCA3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
