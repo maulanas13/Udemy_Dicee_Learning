@@ -3,7 +3,7 @@ const generateDice = (diceID, imgSRC) => {
 }
 
 const selectTitle = (text) => {
-    return document.getElementById("title").innerText = text;
+    return document.getElementById("title").innerHTML = text;
 }
 
 const diceChange = () => {
@@ -24,5 +24,5 @@ const diceChange = () => {
     else if (randomNumber2 === 5) generateDice("rightDice", "./images/dice5.png");
     else generateDice("rightDice", "./images/dice6.png");
 
-    randomNumber1 > randomNumber2 ? selectTitle("Player 1 Wins!") : randomNumber1 < randomNumber2 ? selectTitle("Player 2 Wins!") : selectTitle("Draw!")
+    randomNumber1 > randomNumber2 ? selectTitle(`<i class="fas fa-flag-checkered color-override"></i> Player 1 Wins!`) : randomNumber1 < randomNumber2 ? selectTitle(`Player 2 Wins! <i class="fas fa-flag-checkered color-override"></i>`) : selectTitle("Draw!")
 }

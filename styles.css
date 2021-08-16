@@ -64,3 +64,8 @@ p {
 	position:relative;
 	top:1px;
 }
+
+/* ICON */
+.color-override {
+  color: white;
+}
